@@ -130,28 +130,54 @@
  * Spectrum sorted: https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
  * Color names: https://www.ditig.com/256-colors-cheat-sheet
  */
+
+/* NOTE: You will need to comment out the color names if you want to use this code again.
 #define COLOR_LIST \
-	COLOR_X(COLOR_VIDEO,         45)  /* Turquoise2 */ \
-	COLOR_X(COLOR_VIDEO1,       226)  /* Yellow1 */ \
-	COLOR_X(COLOR_AUDIO,        220)  /* Gold1 */ \
-	COLOR_X(COLOR_AUDIO1,       205)  /* HotPink */ \
-	COLOR_X(COLOR_IMAGE,         82)  /* Chartreuse2 */ \
-	COLOR_X(COLOR_DOCS,         202)  /* OrangeRed1 */ \
-	COLOR_X(COLOR_ARCHIVE,      209)  /* Salmon1 */ \
-	COLOR_X(COLOR_C,             81)  /* SteelBlue1 */ \
-	COLOR_X(COLOR_JAVA,          32)  /* DeepSkyBlue3 */ \
-	COLOR_X(COLOR_JAVASCRIPT,    47)  /* SpringGreen2 */ \
-	COLOR_X(COLOR_REACT,         39)  /* DeepSkyBlue1 */ \
-	COLOR_X(COLOR_CSS,          199)  /* DeepPink1 */ \
-	COLOR_X(COLOR_PYTHON,       227)  /* LightGoldenrod1 */ \
-	COLOR_X(COLOR_LUA,           19)  /* Blue3 */ \
-	COLOR_X(COLOR_DOCUMENT,      15)  /* White */ \
-	COLOR_X(COLOR_FSHARP,        31)  /* DeepSkyBlue3 */ \
-	COLOR_X(COLOR_RUBY,         160)  /* Red3 */ \
-	COLOR_X(COLOR_SCALA,        196)  /* Red1 */ \
-	COLOR_X(COLOR_SHELL,         47)  /* SpringGreen2 */ \
-	COLOR_X(COLOR_VIM,           28)  /* Green4 */ \
-	COLOR_X(COLOR_ELIXIR,       104)  /* MediumPurple */ \
+	COLOR_X(COLOR_VIDEO,         45)   Turquoise2      \
+	COLOR_X(COLOR_VIDEO1,       226)   Yellow1         \
+	COLOR_X(COLOR_AUDIO,        220)   Gold1           \
+	COLOR_X(COLOR_AUDIO1,       205)   HotPink         \
+	COLOR_X(COLOR_IMAGE,         82)   Chartreuse2     \
+	COLOR_X(COLOR_DOCS,         202)   OrangeRed1      \
+	COLOR_X(COLOR_ARCHIVE,      209)   Salmon1         \
+	COLOR_X(COLOR_C,             81)   SteelBlue1      \
+	COLOR_X(COLOR_JAVA,          32)   DeepSkyBlue3    \
+	COLOR_X(COLOR_JAVASCRIPT,    47)   SpringGreen2    \
+	COLOR_X(COLOR_REACT,         39)   DeepSkyBlue1    \
+	COLOR_X(COLOR_CSS,          199)   DeepPink1       \
+	COLOR_X(COLOR_PYTHON,       227)   LightGoldenrod1 \
+	COLOR_X(COLOR_LUA,           19)   Blue3           \
+	COLOR_X(COLOR_DOCUMENT,      15)   White           \
+	COLOR_X(COLOR_FSHARP,        31)   DeepSkyBlue3    \
+	COLOR_X(COLOR_RUBY,         160)   Red3            \
+	COLOR_X(COLOR_SCALA,        196)   Red1            \
+	COLOR_X(COLOR_SHELL,         47)   SpringGreen2    \
+	COLOR_X(COLOR_VIM,           28)   Green4          \
+	COLOR_X(COLOR_ELIXIR,       104)   MediumPurple    \
+*/
+
+#define COLOR_LIST \
+	COLOR_X(COLOR_VIDEO,        0) \
+	COLOR_X(COLOR_VIDEO1,       0) \
+	COLOR_X(COLOR_AUDIO,        0) \
+	COLOR_X(COLOR_AUDIO1,       0) \
+	COLOR_X(COLOR_IMAGE,        0) \
+	COLOR_X(COLOR_DOCS,         0) \
+	COLOR_X(COLOR_ARCHIVE,      0) \
+	COLOR_X(COLOR_C,            0) \
+	COLOR_X(COLOR_JAVA,         0) \
+	COLOR_X(COLOR_JAVASCRIPT,   0) \
+	COLOR_X(COLOR_REACT,        0) \
+	COLOR_X(COLOR_CSS,          0) \
+	COLOR_X(COLOR_PYTHON,       0) \
+	COLOR_X(COLOR_LUA,          0) \
+	COLOR_X(COLOR_DOCUMENT,     0) \
+	COLOR_X(COLOR_FSHARP,       0) \
+	COLOR_X(COLOR_RUBY,         0) \
+	COLOR_X(COLOR_SCALA,        0) \
+	COLOR_X(COLOR_SHELL,        0) \
+	COLOR_X(COLOR_VIM,          0) \
+	COLOR_X(COLOR_ELIXIR,       0) \
 
 /* X-Macro: https://en.wikipedia.org/wiki/X_Macro */
 #define COLOR_X(N, V) N = (V),
